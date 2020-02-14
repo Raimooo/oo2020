@@ -4,8 +4,8 @@ import java.util.concurrent.ThreadLocalRandom;
 
 class kodutoo1 {
 
-    // Sorteerib int array, kasutades Bubble sorti.
-    public static void bubbleSort(int[] arr) {
+    // Sorteerib numbrite array, kasutades Bubble sorti
+    public static void BubbleSort(int[] arr) {
         System.out.println("Sorteerimata array: " + Arrays.toString(arr));
         int loops = 0;
         int arrayLength = arr.length;
@@ -23,8 +23,8 @@ class kodutoo1 {
         System.out.println("Sorteeritud array: " + Arrays.toString(arr) + "Luupide arv: " + loops);
     }
 
-    // Funktsioon, mis genereerib eri suurustes arrayd ja täidab nad ka ära suvaliste arvudega.
-    public static int[] arrayGenerator(int a){
+    // Funktsioon, mis genereerib eri suurustes arrayd ja täidab nad ka ära suvaliste arvudega vahemikus 10-10000
+    public static int[] ArrayGenerator(int a){
         int[] arr;
         arr = new int[a];
         for(int i=0; i < a; i++){
@@ -36,9 +36,9 @@ class kodutoo1 {
 
 
     public static void main(String[] args) {
-        int arr[] =arrayGenerator(5);
-        bubbleSort(arr);
-        int arr2[] = arrayGenerator(7);
-        bubbleSort(arr2);
+        int arr[] =ArrayGenerator(5);
+        BubbleSort(arr);
+        int arr2[] = ArrayGenerator(7);
+        BubbleSort(arr2);
     }
 }
