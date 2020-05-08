@@ -1,0 +1,13 @@
+Poe valija -> 2, 4, 6
+Loo klass Pood mil kirjas avamise ja sulgemise aeg.
+
+* Loo ühe kaubandusketi poodide hoidla, millesse on salvestatud erisuguste lahtiolekuaegadega poed.
+Kasutaja saab hoidlalt küsida etteantud ajal lahti oleva poe ning seda külastada.
+ Hoidlast on võimalik välja trükkida, millist poodi kui mitu korda on külastatud.
+
+* Poel on iga päeva nädalapäeva kohta kirjas, mis kellast kellani ta avatud on.
+Käsu parameetritena sisestatakse nädalapäev ja kellaaeg, väljastatakse, kas pood on sel ajal avatud.
+
+* Poodide ketid saab omakorda koondada gruppidesse.
+Kellaajapäringuga saab küsida massiivina kõik poed, mis sel ajal lahti on ning nende külastusi kasvatada.
+Hiljem saab välja trükkida külastuste arvud poodide ja poekettide kaupa.
